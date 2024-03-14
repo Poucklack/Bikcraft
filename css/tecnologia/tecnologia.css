@@ -1,0 +1,55 @@
+.tecnologia-bg {
+  background-color: var(--cor-14);
+  box-shadow: inset 0 80px var(--cor-00), inset 0 -80px var(--cor-00);
+}
+
+.tecnologia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.tecnologia-imagem {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.tecnologia-menu {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+
+/* LINK */
+.tecnologia-menu {
+  position: relative;
+}
+
+.link {
+  color: var(--cor-A01);
+}
+
+.link:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background-color: var(--cor-A01);
+  width: 255px;
+  margin-top: 4px;
+  position: absolute;
+}
+
+.link:hover {
+  color: var(--cor-00);
+}
+
+.tecnologia-menu a:hover:after {
+  background-color: var(--cor-00);
+}
+
+/* CARTÕES DE INFORMAÇÃO */
+.tecnologia-info {
+  display: flex;
+}
