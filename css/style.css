@@ -4,14 +4,14 @@
 @import url("/css/global/tipografia.css");
 @import url("/css/global/cores.css");
 
-/* INTRODUÇÃO */
+/* home */
 @import url("/css/home/introducao.css");
+@import url("/css/home/tecnologia.css");
+@import url("/css/home/parceiros.css");
+
 
 /* UTILIDADES */
 @import url("/css/utilidades/utilidades.css");
 
 /* bicicletas */
 @import url("/css/bicicletas/bicicletas.css");
-
-/* bicicletas */
-@import url("/css/tecnologia/tecnologia.css");
