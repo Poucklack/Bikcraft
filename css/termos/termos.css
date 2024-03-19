@@ -1,0 +1,39 @@
+.termos-bg {
+  background-color: var(--cor-14);
+}
+
+.termos-conteudo {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.lista-termos {
+  margin-top: 60px;
+  margin-bottom: 40px;
+
+}
+
+.lista-termos h2 {
+  margin-bottom: 20px;
+}
+
+.lista-termos ul {
+  margin-bottom: 60px;
+}
+
+.lista-termos li {
+  margin-bottom: 20px;
+}
+
+@media (max-width:800px) {
+  .termos-conteudo {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .lista-termos {
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+  }
+}

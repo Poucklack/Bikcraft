@@ -22,13 +22,17 @@
   margin-bottom: 20px;
 }
 
+.frtr {
+  margin-bottom: 20px;
+}
+
 .footer-contato li:nth-child(even)::after {
   content: "";
   height: 2px;
   max-width: 360px;
   display: block;
   background-color: var(--cor-14);
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .footer-contato img {
