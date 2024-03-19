@@ -37,6 +37,12 @@
     border-radius: 4px;
     font-size: 1rem;
   }
+
+  .botao-secundario {
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
 }
 
 .container {

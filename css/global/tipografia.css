@@ -25,6 +25,7 @@
 
 .font-1-m-b {
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .font-2-m {
@@ -79,4 +80,17 @@
     font-size: 1.5rem;
   }
 
+  .font-1-m {
+    font: 400 1rem/1.2rem "Poppins", sans-serif;
+  }
+}
+
+@media (max-width:480px) {
+  .font-1-m {
+    font: 400 0.8rem/1rem "Poppins", sans-serif;
+  }
+
+  .font-1-l {
+    font: 400 1.125rem/1.5 "Poppins", sans-serif;
+  }
 }
