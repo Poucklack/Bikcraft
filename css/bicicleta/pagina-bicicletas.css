@@ -79,7 +79,7 @@
   place-self: end;
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
 
   .bicicleta-2 {
     background: var(--cor-14);
