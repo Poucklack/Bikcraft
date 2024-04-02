@@ -75,10 +75,13 @@
 
 .link:hover {
   color: var(--cor-00);
+  transition: transform 0.3s ease;
+  transform-origin: center;
 }
 
 .link:hover:after {
   background-color: var(--cor-00);
+  transform: scale(1.05);
 }
 
 /* RESPONSIVO */

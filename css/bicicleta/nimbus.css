@@ -1,3 +1,5 @@
+/* INICIO DA PARTE INICIAL DA PÁGINA POR BICICLETA */
+
 .nimbus-bg {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -61,9 +63,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 32px;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
   padding: 32px;
-  border-bottom: 5px;
 }
 
 .informacoes-nimbus img {
@@ -81,11 +82,60 @@
 }
 
 .nimbus-ficha li {
+  color: var(--cor-06);
   display: flex;
   justify-content: space-between;
   padding: 4px 0px;
 }
 
+.nimbus-ficha li>span {
+  color: var(--cor-09);
+}
+
+/* INICIO DA PARTE RESPONSIVA NIMBUS-BG INICIAL */
+
+@media (max-width:800px) {
+  .nimbus-bg {
+    grid-template-columns: 1fr;
+  }
+
+  .nimbus-fotos :nth-child(n+2) {
+    display: none;
+  }
+
+  .nimbus-compra {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .informacoes-nimbus {
+    padding: 16px;
+  }
+
+  .nimbus-ficha {
+    padding: 16px;
+  }
+}
+
+@media (max-width:480px) {
+
+  .informacoes-nimbus {
+    grid-template-columns: 1fr;
+    gap: 20px
+  }
+
+  .nimbus-ficha {
+    padding: 16px;
+  }
+}
+
+/* FINAL DE NIMBUS / INFORMAÇÕES & FICHA TÉCNICA */
+
+
+/* OUTRAS BICICLIETAS É REUTILIZAVEL | ALTERAÇÃO NA PÁGINA BICICLETAS */
+
+
+/* INICIO DO CONTEUDO DE SEGURO DA PÁGINA P/ BICICLETA */
 .nimbus-conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -103,4 +153,28 @@
   height: 100%;
   object-fit: cover;
   object-position: left;
+}
+
+
+/* INICIO DA PARTE RESPONSIVA NIMBUS-BG SEGURO */
+
+@media(max-width:800px) {
+  .nimbus-imagem {
+    display: none;
+  }
+
+  .nimbus-bg2 {
+    box-shadow: none;
+  }
+
+  .nimbus-conteudo {
+    padding-top: 0px;
+    grid-template-columns: 1fr;
+  }
+
+  .nimbus-conteudo h2 {
+    background: linear-gradient(to right, #FFB400, #865902);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }

@@ -74,7 +74,11 @@
 
 /* Inicio do HEADER 400PX */
 
-@media (max-width:400px) {
+@media (max-width:490px) {
+
+  .header {
+    justify-content: center;
+  }
 
   .header a,
   img {
