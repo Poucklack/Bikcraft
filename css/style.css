@@ -14,8 +14,12 @@
 /* TERMOS */
 @import url("/css/termos/termos.css");
 
+/* CONTATOS */
+@import url("/css/contatos/contatos.css");
+
 /* UTILIDADES */
 @import url("/css/utilidades/utilidades.css");
+@import url("/css/utilidades/formularios.css");
 
 /* bicicletas */
 @import url("/css/bicicleta/bicicletas.css");

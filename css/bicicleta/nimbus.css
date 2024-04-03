@@ -140,11 +140,19 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  padding-top: 20px;
+}
+
+.nimbus-seguro-menu {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.nimbus-seguro-menu p {
+  margin-bottom: 16px;
 }
 
 .nimbus-bg2 {
-  box-shadow: inset 0 100px var(--cor-00), inset 0 -80px var(--cor-15);
+  box-shadow: inset 0 120px var(--cor-00), inset 0 -120px var(--cor-15);
   background: var(--cor-14);
 }
 
@@ -152,7 +160,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: left;
 }
 
 
@@ -160,11 +167,16 @@
 
 @media(max-width:800px) {
   .nimbus-imagem {
-    display: none;
+    grid-row: 2;
   }
 
   .nimbus-bg2 {
     box-shadow: none;
+  }
+
+  .nimbus-seguro-menu {
+    padding-top: 60PX;
+    padding-bottom: 20PX;
   }
 
   .nimbus-conteudo {
@@ -173,8 +185,7 @@
   }
 
   .nimbus-conteudo h2 {
-    background: linear-gradient(to right, #FFB400, #865902);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--cor-A01);
+    margin-bottom: 8PX;
   }
 }
