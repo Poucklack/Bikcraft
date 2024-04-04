@@ -1,0 +1,126 @@
+.contato-bg {
+  background: linear-gradient(var(--cor-14) 280px, var(--cor-00) 0px)
+}
+
+.nosso-contato {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  box-shadow: 0 1px 2px rgb(0, 0, 0, 0.1);
+}
+
+
+.contato-formulario {
+  padding: 60px;
+  grid-column: 2;
+  background-color: var(--cor-00);
+  border-radius: 0 5px 5px 0;
+}
+
+.contato-endereco {
+  border-radius: 5px 0 0 5px;
+  background-color: var(--cor-14);
+  padding: 60px;
+  position: relative;
+}
+
+.contato-rua {
+  margin-bottom: 60px;
+}
+
+.contato-rua p {
+  margin-bottom: 6px;
+}
+
+.contato-rua::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin-left: -28px;
+  background-image: url("/img/icones/local.svg");
+}
+
+.contato-endereco h2 {
+  margin-bottom: 60px;
+}
+
+.contatos-email {
+  display: grid;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.contatos-email a {
+  margin-bottom: 6px;
+  max-width: max-content;
+}
+
+.contatos-email::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin-left: -28px;
+  background-image: url("/img/icones/email.svg");
+}
+
+.contatos-email a:last-child {
+  margin-top: 32px;
+  position: relative;
+}
+
+.contatos-email a:hover {
+  color: var(--cor-00);
+}
+
+.contatos-email a:last-child::before {
+  background-image: url("/img/icones/telefone.svg");
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin-left: -28px;
+}
+
+.contatos-redes img:nth-child(n+1) {
+  margin-right: 16px;
+}
+
+@media (max-width:800px) {
+
+  .contato-formulario,
+  .contato-endereco {
+    border-radius: 5px;
+    padding: 40px;
+  }
+
+  .contato-endereco h2 {
+    margin-bottom: 32px;
+  }
+
+  .contato-rua {
+    margin-bottom: 32px;
+  }
+
+  .contatos-email {
+    margin-bottom: 16px;
+  }
+
+  .contatos-email a:last-child {
+    margin-top: 8px;
+  }
+}
+
+@media (max-width:480px) {
+  .nosso-contato {
+    grid-template-columns: 1fr;
+  }
+
+  .contato-formulario {
+    grid-column: 1;
+  }
+
+  .contato-endereco {
+    grid-row: 1;
+  }
+}

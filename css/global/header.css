@@ -80,12 +80,6 @@
     justify-content: center;
   }
 
-  .header a,
-  img {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .header-menu a {
     gap: 12px;
     font-size: 0.875rem;
