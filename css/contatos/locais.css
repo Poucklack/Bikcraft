@@ -1,0 +1,57 @@
+.locais-loja {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+
+.locais-loja img {
+  border-radius: 4px 4px 0px 0px;
+  margin-bottom: 20px;
+}
+
+.locais-loja h2 {
+  grid-column: -1/1;
+  margin-right: 8px;
+  margin-bottom: 60px;
+}
+
+.locais-loja h3 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.locais-dados {
+  background-color: var(--cor-01);
+  border-radius: 4px;
+  border: 1px solid var(--cor-02);
+  box-shadow: 0 1px 2px rgb(0, 0, 0, 0.1);
+  gap: 20px;
+}
+
+.locais-dados img {
+  padding-left: none;
+}
+
+.endereco-lojas {
+  margin-left: 12px;
+  border-left: 2px solid var(--cor-06);
+  padding-left: 12px;
+  gap: 8px;
+}
+
+.endereco-lojas1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 12px;
+  gap: 8px;
+}
+
+.locais-dados span {
+  margin-top: 20px;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  margin-left: 12px;
+}
